@@ -1,0 +1,112 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.img-logo {
+    height: 36px;
+}
+.logo {
+    border: 1px solid #F5F6F7;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ##F5F6F7;
+}
+.barra-nav {
+    border: 1px solid #F5F6F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: ##F5F6F7;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.vermelho {
+    color: #C3170C;
+}
+.azul {
+    color: ##1E4B9B;
+}
+.verde-escuro {
+    color: #006766;
+}
+.verde-claro {
+    color: #07AA47;
+}
+.laranja {
+    color: #E3662B;
+}
+.vermelho-claro {
+    color: #FB0735;
+}
+.rosa {
+    color:#FF75BB;
+}
+.amarelo {
+    color: #EC7D00;
+}
+.preto {
+    color: #323333;
+}
+.roxo {
+    color: #A81D83;
+}
+
+
+.conteudo-principal {
+    display: flex;
+}
+.conteudo-esquerda {
+    background-color: chocolate;
+}
+.conteudo-direita {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+.coluna {
+    border: 1px solid #EBEDEF;
+    flex-direction: column;
+}
+.caixa {
+
+}
+.img-colunas {
+    width: 240px;
+    height: 128px;
+}
+.titulo-secundario {
+    color: #303134;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+}
+img {
+    border-radius: 12px;
+}
+h1 {
+    color: #C4160C;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 67px;
+    letter-spacing: -0.01em;
+}
+h2 {
+    color: #2F3134;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.045em;
+}
+p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
