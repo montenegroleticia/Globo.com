@@ -1,5 +1,7 @@
 body {
     font-family: 'Encode Sans', sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 a {
     text-decoration: none;
