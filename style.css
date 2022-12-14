@@ -1,26 +1,32 @@
 body {
     font-family: 'Encode Sans', sans-serif;
+    font-style: normal;
+    width: 100%;
 }
 a {
     text-decoration: none;
 }
+
+/*Conteúdo da logo*/
 .img-logo {
     height: 36px;
 }
 .logo {
-    border: 1px solid #F5F6F7;
+    border-top: 1px solid #F5F6F7;
+    border-bottom: 1px solid #F5F6F7;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: ##F5F6F7;
 }
+
+/* Conteúdo barra de navegação*/
 .barra-nav {
-    border: 1px solid #F5F6F7;
+    border-top: 1px solid #F5F6F7;
+    border-bottom: 1px solid #F5F6F7;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: ##F5F6F7;
     font-weight: 700;
     font-size: 19px;
     line-height: 24px;
@@ -57,41 +63,9 @@ a {
     color: #A81D83;
 }
 
-
+/*conteúdo geral*/
 .conteudo-principal {
     display: flex;
-}
-.conteudo-esquerda {
-    background-color: chocolate;
-    justify-content: space-around;
-}
-.conteudo-direita {
-    background-color: yellow;
-    display: flex;
-    justify-content: space-around;
-}
-.coluna {
-    border: 1px solid #EBEDEF;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.caixa {
-
-}
-.img-direita {
-    width: 240px;
-    height: 128px;
-}
-.img-esquerada {
-    width: 103px;
-    height: 110px;
-}
-.titulo-secundario {
-    color: #303134;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: -0.01em;
 }
 img {
     border-radius: 12px;
@@ -115,4 +89,62 @@ p {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
+}
+.titulo-secundario {
+    color: #303134;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+}
+
+/*Conteúdo da esquerda*/
+.conteudo-esquerda {
+    background-color: chocolate;
+    width: 50%;
+}
+.titulos {
+}
+.imagens-esquerda {
+}
+.imagens-esquerda-linha {
+    background-color: #A81D83;
+    border-top: 1px solid #F5F6F7;
+    border-bottom: 1px solid #F5F6F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-esquerda {
+    width: 193px;
+    height: 110px;
+}
+
+/* Conteúdo da direita*/
+.conteudo-direita {
+    width: 50%;
+    display: flex;
+}
+.titulo-secundario-imagem{
+    color: #2F3134;
+}
+.coluna {
+    border: 1px solid #F5F6F7;
+}
+.caixa {
+    background-color: #FB0735;
+    width: 312px;
+}
+.img-direita {
+    width: 240px;
+    height: 128px;
+}
+.p-amarelo {
+    color: #EC8006;
+}
+.p-verde {
+    color: #16AE54;
+}
+.p-vermelho {
+    color: #C4170C;
 }
