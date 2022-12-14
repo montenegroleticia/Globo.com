@@ -130,10 +130,10 @@ p {
 }
 .coluna {
     border: 1px solid #F5F6F7;
+    width: 50%;
 }
 .caixa {
     background-color: #FB0735;
-    width: 312px;
 }
 .img-direita {
     width: 240px;
