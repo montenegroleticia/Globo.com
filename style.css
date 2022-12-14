@@ -108,6 +108,7 @@ p {
 /*Conteúdo da esquerda*/
 .conteudo-esquerda {
     width: 50%;
+    padding-left: 30px;
 }
 .noticia {
     padding: 10px 10px 10px 0;
