@@ -1,7 +1,7 @@
 # Globo.com
 
-## Clone do site da Globo.com
+### Clone do site da globo.com:
 
-### Deploy https://rukpwb.csb.app/
+[![https://rukpwb.csb.app/](/projeto-globocom-imagens/Captura%20de%20tela%202022-12-15%20162542.png)](https://rukpwb.csb.app/)
 
-
+### Página do globo.com utilizando as ferramentas HTML e CSS.
